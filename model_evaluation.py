@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # Enhanced script for evaluating multiple YOLOv8 models and generating HTML reports
+# python3 model_evaluation.py --models-dir /home/adminuser/NNI-YOLOV8/yolo_opt_project/yolo_optimizer/ --data /home/adminuser/NNI-YOLOV8/yolo_opt_project/yolo_optimizer/vehicles.v2-release.yolov8/data.yaml --task detect --device 0
+
 
 import os
 import json
